@@ -1,0 +1,241 @@
+
+/* ---------------------------------------- navbar */
+.navbar{
+    background-color: #241b43;
+}
+
+.logoAp{
+    width: 130px;
+    
+    /* filter:invert(); */
+ }
+
+ .fa-navbar{
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 4px;
+    transition: 0.4s;
+    color: grey;
+}
+
+.fa-linkedin:hover {
+    background: #007bb5;
+    color: #FFF;
+  }
+
+.fa-github:hover {
+    background: #000;
+    color: #FFFF;
+}
+
+.login{
+    margin: 8px 10px;
+}
+
+.navbar-toggler{    
+    border: none;
+}
+
+.nav-item{
+    text-align: center;
+}
+
+/* ---------------------------------------- hero*/
+.hero{
+    background-image: url("img/landscape.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    min-height: 100vh; 
+  
+   filter: grayscale(40%); 
+  
+}
+
+
+
+/* ---------------------------------------- sobre mi */
+.about{
+    padding: 50px 0 50px 0;
+}
+
+.about-p{
+    padding-bottom: 10px; 
+}
+
+.img-perfil{
+    width: 250px;
+    height: auto;    
+    
+}
+
+
+
+/* ---------------------------------------- titulos*/
+.experiencia, .formacion, .skills, .proyectos, .otro{
+    padding-bottom:100px;    
+    
+}
+
+h2{
+    font-size: 60px
+}
+
+hr{    
+    border: 2px solid #3550A1;
+    width: 100px;
+    opacity: 100;    
+}
+.hr{
+    padding-bottom: 15px;
+}
+/* ---------------------------------------- Experiencia*/
+
+.card{
+    margin-top: 10px;
+    border-left: 5px solid #212529;
+    
+}
+
+.contenido-card{    
+    padding-left: 25px;
+}
+
+.img-logoE {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%; 
+    /* border:1px solid gray;      */
+}
+
+.h2{
+    padding-bottom: 15px;
+}
+
+
+/* ---------------------------------------- Fomación*/
+
+
+/* Timeline holder */
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+/* Timeline linea vertical */
+ul.timeline:before {
+    content: ' ';
+    background: #212529;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    width: 4px;
+    height: 100%;
+    z-index: 400;
+    border-radius: 1rem;
+}
+
+li.timeline-item {
+    margin: 20px 0;
+}
+
+/* Timeline item flecha*/
+.timeline-arrow {
+    border-top: 0.5rem solid transparent;
+    border-right: 0.5rem solid #212529;
+    border-bottom: 0.5rem solid transparent;
+    display: block;
+    position: absolute;
+    left: 2rem;
+}
+
+/* Timeline item circulo */
+li.timeline-item::before {
+    content: ' ';
+    background: #FEFEFE;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #212529;
+    left: 11px;
+    width: 14px;
+    height: 14px;
+    z-index: 400;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/* ---------------------------------------- Hard & Soft Skills*/
+
+
+
+.skill-img{ 
+    width: 50px;
+    height: 50px;
+    
+}
+
+
+
+/* ---------------------------------------- Proyectos*/
+
+
+/* ---------------------------------------- Botones de edicion*/
+
+.btn-edicion{
+    background-color: #3550A1; 
+    color:#FEFEFE;
+    border:1px solid #3550A1;
+}
+ 
+.btn-edicion:hover{
+    background-color: #3550a1e8;
+    color: #FEFEFE;
+}
+
+
+/* ---------------------------------------- Flecha*/
+
+.fa-up{
+    font-size: 60px;
+}
+
+.fa-up:hover{
+    color: #212529da;
+}
+
+/* ---------------------------------------- Login*/
+.img-login {
+    background-image: url("img/silla.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;   
+    
+    min-height: 80vh;
+    
+    
+}
+
+.label{
+    font-size: 18px;
+}
+
+.input{
+    height: 48px;
+}
+
+/* ---------------------------------------- 404*/
+.titulo-404{    
+    color: transparent;
+    font-size: 260px;
+    background: url("img/landscape.jpg") repeat;
+    background-position: center center;
+    background-size: 225%;
+    background-clip: text;
+    -webkit-background-clip: text;    
+    filter: grayscale(40%);
+}
+
